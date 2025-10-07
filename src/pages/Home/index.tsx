@@ -133,7 +133,7 @@ const Home = () => {
         color: '#333'
       }}
     >
-      {`I am a passionate frontend developer specializing in React.js, Angular, and  TypeScript. I craft high-performance, scalable web applications with an        emphasis on clean, maintainable code and exceptional user experiences.    My expertise spans advanced state management, component-driven             architecture, and performance optimization. Committed to collaboration and continuous learning, I enjoy mentoring peers and driving best practices to     build innovative and reliable frontend solutions.`.split('').map((letter, index) => (
+      {`I am a passionate frontend developer specializing in React.js, Angular, and TypeScript. I craft high-performance, scalable web applications with an emphasis on clean, maintainable code and exceptional user experiences. My expertise spans advanced state management, component-driven architecture, and performance optimization. Committed to collaboration and continuous learning, I enjoy mentoring peers and driving best practices to build innovative and reliable frontend solutions.`.split('').map((letter, index) => (
         <motion.span
           key={index}
           initial={{ opacity: 0, y: 10 }}
